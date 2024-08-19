@@ -5266,5 +5266,49 @@ export namespace AccuWeatherData {
 }
 
 export namespace OpenweatherData{
-    
+    export const current = {
+        "coord": {
+            "lon": 174.7632,
+            "lat": -36.8521
+        },
+        "weather": [
+            {
+                "id": 801,
+                "main": "Clouds",
+                "description": "few clouds",
+                "icon": "02d"
+            }
+        ],
+        "base": "stations",
+        "main": {
+            "temp": 14.12,
+            "feels_like": 13.34,
+            "temp_min": 12.86,
+            "temp_max": 14.54,
+            "pressure": 1019,
+            "humidity": 67,
+            "sea_level": 1019,
+            "grnd_level": 1013
+        },
+        "visibility": 10000,
+        "wind": {
+            "speed": 6.69,
+            "deg": 240
+        },
+        "clouds": {
+            "all": 20
+        },
+        "dt": 1724110917,
+        "sys": {
+            "type": 2,
+            "id": 2012285,
+            "country": "NZ",
+            "sunrise": 1724093903,
+            "sunset": 1724133043
+        },
+        "timezone": 43200,
+        "id": 2193732,
+        "name": "Auckland",
+        "cod": 200
+    };
 };
