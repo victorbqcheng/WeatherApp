@@ -2,6 +2,7 @@ import React from 'react'
 import styles from './Container.module.css'
 import Current from './Current'
 import { Hourly } from './Hourly'
+import Daily from './Daily'
 
 
 export const Container:React.FC = () => {
@@ -12,6 +13,7 @@ export const Container:React.FC = () => {
         <Hourly />
       </div>
       <div className={styles.right}>
+        <Daily />
       </div>
     </div>
   )
