@@ -165,7 +165,7 @@ class AccuWeather {
             return data;
         } else {
             const response = await fetch(
-                `${BASE_URL}/indices/v1/daily/1day/${locationKey}/1?apikey=${API_KEY}`);
+                `${BASE_URL}/indices/v1/daily/1day/${locationKey}/groups/1?apikey=${API_KEY}&details=true`);
             const data = await response.json();
             return data;
         }

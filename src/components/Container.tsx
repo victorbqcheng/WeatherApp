@@ -3,6 +3,7 @@ import styles from './Container.module.css'
 import Current from './Current'
 import { Hourly } from './Hourly'
 import Daily from './Daily'
+import Indices from './Indices'
 
 
 export const Container:React.FC = () => {
@@ -14,6 +15,7 @@ export const Container:React.FC = () => {
       </div>
       <div className={styles.right}>
         <Daily />
+        <Indices />
       </div>
     </div>
   )
