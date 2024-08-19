@@ -1,0 +1,1 @@
+export const USE_FAKE_DATA = true;
