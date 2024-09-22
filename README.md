@@ -2,6 +2,8 @@
 
 WeatherApp is a responsive weather application built with Vite and React. It integrates both OpenWeather and AccuWeather APIs to provide comprehensive weather information about Auckland NZ to users.
 
+<img src="Snipaste_2024-09-23_10-13-38.png" width="50%">
+
 ## Features
 
 - Display current weather conditions
